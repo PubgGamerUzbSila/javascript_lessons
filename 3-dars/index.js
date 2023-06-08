@@ -92,12 +92,16 @@ const secondMonkey = true
 
 // 2. A * x^2 + B * x +  C = 0
 // shu tenglamada A,B,C kayfsentlar berilganda x ni qiymatlarini toping ?
-let x1,x2,a=1, b=2, c = 1
+let x1,
+  x2,
+  a = 1,
+  b = 2,
+  c = 1
 
-const D = b ** 2 - 4 * a * c;
-x1 = (-b + (D) ** 0.5) / (2 * a);
-x2 = (-b - (D) ** 0.5) / (2 * a);
+const D = b ** 2 - 4 * a * c
+x1 = (-b + D ** 0.5) / (2 * a)
+x2 = (-b - D ** 0.5) / (2 * a)
 
-( D > 0 ) ? console.log(x1 + " " + x2): "";
-( D == 0 ) ? console.log(x1): "";
-( D < 0 ) ? console.log(" yechim yuq  (kompleks yechim)"): "";
+D > 0 ? console.log(x1 + ' ' + x2) : ''
+D == 0 ? console.log(x1) : ''
+D < 0 ? console.log(' yechim yuq  (kompleks yechim)') : ''
