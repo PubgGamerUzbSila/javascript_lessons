@@ -137,3 +137,52 @@
 // a.name = 'Doe'
 
 // console.log(b)
+
+// const obj = {
+//   name: 'John',
+//   age: 40,
+// }
+
+// Object.freeze(obj)
+
+// obj.age = 30
+
+// obj['isMarried'] = true
+
+// delete obj.name
+
+// console.log(obj)
+
+// const obj = {
+//   name: 'John',
+//   age: 40,
+// }
+
+// Object.seal(obj)
+
+// obj.age = 20
+
+// delete obj.name
+
+// obj['isMarried'] = false
+
+// console.log(obj)
+
+// const obj = {
+//   name: 'John',
+// }
+
+// Object.seal(obj)
+// console.log(Object.isFrozen(obj))
+
+// console.log(Object.isSealed(obj))
+
+// const obj = {
+//   name: 'John',
+//   age: 40,
+//   isMarried: false,
+// }
+
+// console.log(Object.keys(obj))
+
+// console.log(Object.getOwnPropertyNames(obj))
