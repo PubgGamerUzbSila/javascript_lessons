@@ -1,0 +1,27 @@
+- JavaScript qanday ma’lumot turlari (data type) mavjud?
+- null va undefined ham ma'lumot turlariga kiradimi?
+- var, let va const orqali o'zgaruvchi e'lon qilishni farqi nimada?
+- hoisting haqida ma'lumot bering
+- hoistingda temporary dead zone tushunchasi nima?
+- Set, Map, WeakSet va WeakMap haqida ma’lumot bering
+- o'qli funksiya (arrow function) va oddiy functionni farqi nimada?
+- JavaScriptda context deb nimaga aytiladi?
+- this kalit so'zi va uni ishlatilishi haqida ma’lumot bering
+- call, bind, apply metodlarini farqi nimada?
+- JavaScriptda Window global obyektida qanday xususiyatlar mavjud?
+- JavaScript single-threaded dasturlash tilimi yoki multi-threaded dasturlash tilimi?
+- Funksiyaning argumentlari ham lexical environmentga qo'shiladimi?
+- Pure functionlar haqida ma'lumot bering
+- JavaScriptda lexical environment nima? Lexical environment qachon yasaladi?
+- Shallow copy va deep copylarning qanday farqi bor?
+- Funksional dasturlash haqida nimalarni bilasiz? Funksional dasturlashning asoslarini sanab bering
+- Objectning prototipini qanday aniqlash mumkun?
+- SASS va CSS ning bir-biridan qanday farqi bor?
+- Responsive va Adaptive designlarning bir-biridan qanday farqi bor? - position turlarini sanab bering
+
+- JavaScriptda array ichidagi sonlarni qo’shish funksiyasini yozib bering
+- JavaScriptda ikkita obyektni solishtirish funksiyasini yozib bering
+- JavaScriptda ichma ich joylashgan obyektlarni solishtirib berish funksiyasini yozib bering
+- obyekt ichidagi metodni turini oddiy funksiyadan o’qli funksiyaga o’zgartirganda this o’zgaradimi yo’qmi, ko’rsatib bering
+- Array ichidagi eng ko'p takrorlangan elementni topuvchi funksiya yozib bering
+  [1,2,3,1,3,3,5]=>3

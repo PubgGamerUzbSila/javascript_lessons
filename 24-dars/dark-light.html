@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .btn-dark {
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(16, 20, 20);
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      .btn-light {
+        color: black;
+        background-color: white;
+        border: 1px solid #6d6969;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+      } */
+      aside {
+        width: 0%;
+        height: 100vh;
+        background-color: rgb(204, 166, 166);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 20px;
+      }
+      li {
+        list-style: none;
+        cursor: pointer;
+      }
+      .active {
+        width: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button class="btn-light" id="btn">Click me</button> -->
+    <aside>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Product</li>
+        <li>Blogs</li>
+      </ul>
+    </aside>
+    <script src="./dark-light.js"></script>
+  </body>
+</html>
