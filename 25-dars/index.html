@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(165, 214, 204);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .avatar {
+        width: 60px;
+        height: 60px;
+        background-color: #282424;
+        border-radius: 50%;
+      }
+      button {
+        border: none;
+        padding: 5px 10px;
+        margin-top: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="filter_status"></div>
+    <div class="container"></div>
+    <script src="./filter.js"></script>
+  </body>
+</html>
