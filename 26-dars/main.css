@@ -1,0 +1,86 @@
+/* p:first-child */
+/* p:last-child */
+
+/* >, ~, +  */
+
+/* li {
+        background-color: red;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        list-style: none;
+      } */
+/* li {
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+      } */
+
+/* .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.btn-dark {
+  background-color: black;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* aside {
+  width: 0%;
+  overflow: hidden;
+  height: 100vh;
+  background-color: rgb(152, 137, 137);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in;
+}
+
+ul li {
+  font-size: 40px;
+  margin-bottom: 40px;
+  list-style: none;
+  color: #fff;
+}
+
+aside.open {
+  width: 40%;
+} */
+
+.box {
+  width: 400px;
+  background-color: rgb(237, 213, 213);
+  margin: 40px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.box h3 {
+  margin: 20px 0;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: auto;
+  margin-top: 10px;
+}
